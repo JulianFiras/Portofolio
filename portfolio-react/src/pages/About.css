@@ -1,0 +1,12 @@
+/* Manual CSS for About page (requirement: manual styling) */
+.about-page header h1{font-size:2rem;margin-bottom:1rem}
+.bio{display:flex;gap:2rem;align-items:flex-start}
+.profile img{width:220px;border-radius:10px;display:block}
+.profile figcaption{margin-top:0.5rem;color:var(--muted)}
+.info h2{margin-top:0}
+.info ul{list-style:disc;margin-left:1.25rem}
+
+@media(max-width:768px){
+  .bio{flex-direction:column;align-items:center;text-align:center}
+  .profile img{width:160px}
+}
