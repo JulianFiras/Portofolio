@@ -10,7 +10,7 @@ export default function Projects(){
         <br></br>
         <div className="row">
           {projects.map(p => (
-            <div key={p.id} className="col-12 mb-4"> {/* full width */}
+            <div key={p.id} className="col-12 mb-4"> 
               <div className="card shadow-sm">
                 <img 
                 src={p.image} 

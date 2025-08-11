@@ -4,7 +4,6 @@ import bgImage from '../assets/bghome.jpg'
 export default function Home() {
   return (
     <main>
-      {/* Hero Section Full Width */}
       <section
         className="text-center text-white d-flex flex-column justify-content-center"
         style={{
@@ -19,7 +18,6 @@ export default function Home() {
           borderRadius: 0,
         }}
       >
-        {/* Overlay gelap */}
         <div
           style={{
             position: 'absolute',
@@ -29,7 +27,6 @@ export default function Home() {
           }}
         ></div>
 
-        {/* Konten teks */}
         <div style={{ position: 'relative', zIndex: 2 }}>
           <h1>Halo, Saya <strong>M. Aldi Julian Firas</strong></h1>
           <p className="lead">Programmer / Frontend Developer</p>
@@ -39,7 +36,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section berikutnya */}
       <section className="container-main section">
         <div className="row align-items-center">
           <div className="col-md-6">

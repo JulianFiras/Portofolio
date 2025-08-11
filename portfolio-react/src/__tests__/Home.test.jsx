@@ -8,7 +8,6 @@ test('renders home hero text', () => {
       <Home />
     </MemoryRouter>
   )
-  // cari teks "Halo, Saya" di halaman
   expect(screen.getByText(/Halo, Saya/i)).toBeInTheDocument()
 })
 
